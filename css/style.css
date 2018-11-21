@@ -9,52 +9,18 @@ body {
     background-color: #eeeeee;
 }
 
-.header-top {
-    
-}
-
-.header-logo {
-    
-}
-.main-nav {
-    
-}
-
-.promo {
-    
-}
-
-.feature {
-    
-}
-
-.feature-item {
-    
-}
-
-.cat-reference {
-    
-}
-
-.reviews {
-    
-}
-
-.reviews-list {
-    
-}
-
-.popular-and-price {
-    
-}
-
-.popular-items {
-    
-}
-
-.catalog-item {
-    
-}
+.header-top {}
+.header-logo {}
+.main-nav {}
+.promo {}
+.feature {}
+.feature-item {}
+.cat-reference {}
+.reviews {}
+.reviews-list {}
+.popular-and-price {}
+.popular-items {}
+.catalog-item {}
 
 .price-list {
     width: 100%;
@@ -68,35 +34,27 @@ body {
 
 .price-list td { border: 1px solid #333333 }
 
-.price-list th,
-.price-list td {
-    padding: 5px 10px;
-}
+.price-list th, .price-list td { padding: 5px 10px }
 
 .price-list .price-number { text-align: center }
+
 .price-list .price-name { font-weight: bold }
+
+.feedback {}
+.feedback-tip {}
+.feedback-form {}
+.feedback-form-group { padding: 10px 0 10px 0 }
+.checkbox-area {}
+input[type="submit"] {}
+.btn {}
 
 .page-footer {
     padding: 10px;
     background-color: #eeeeee;
 }
 
-.footer-top {
-    
-}
-
-.footer-middle {
-    
-}
-
-.footer-menu {
-    
-}
-
-.footer-bottom {
-    
-}
-
-.footer-social {
-    
-}
+.footer-top {}
+.footer-middle {}
+.footer-menu {}
+.footer-bottom {}
+.footer-social {}
