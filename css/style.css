@@ -11,7 +11,9 @@ body {
 .page-header {
     padding: 10px;
     background-color: #363636;
-    color: #c3c3c3
+    color: #c3c3c3;
+    background: url("../img/header-bg.jpg") no-repeat 50% 50%;
+    background-size: cover
 }
 
 .header-top {}
@@ -47,7 +49,8 @@ body {
 
 .feature-item {
     text-align: center;
-    border-left: 1px solid #d9d9d9
+    border-left: 1px solid #d9d9d9;
+    padding-top: 90px
 }
 .feature-item:first-child { border: none }
 
@@ -60,6 +63,12 @@ body {
     font-weight: bold;
     color: #a38b70
 }
+
+.feature-choice { background: url("../img/feature-1.png") no-repeat top center }
+
+.feature-quality { background: url("../img/feature-2.png") no-repeat top center }
+
+.feature-safety { background: url("../img/feature-3.png") no-repeat top center }
 
 .cat-reference { background-color: #f2f2f2 } 
 
@@ -140,7 +149,10 @@ body {
 
 .feedback-tip { font-size: 16px }
 
-.feedback-form {}
+.feedback-form { 
+    padding-right: 390px;
+    background: url("../img/write.jpg") no-repeat 100% 40px
+}
 
 .feedback-form-group { padding: 10px 0 10px 0 }
 
